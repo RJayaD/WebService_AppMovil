@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WebService_AppMovil" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- <item name="android:windowTranslucentStatus">true</item>-->
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/toolbar1</item>
+        <item name="actionOverflowButtonStyle">@style/MyOverflowButtonStyle</item>
+        <!--<item name="colorControlNormal">@color/txt2</item>-->
+
+        <!-- Activity Splash -->
+        <item name="asBackground">@color/bg3</item>
+        <item name="asSpinner">@color/spinner2</item>
+
+        <!-- Activity Welcome -->
+        <item name="awBackground">@color/bg3</item>
+        <item name="awLayoutRounded">@color/bg4</item>
+        <item name="awText">@color/txt2</item>
+        <item name="awText2">@color/txt2</item>
+        <item name="awButton">@color/btn3</item>
+
+        <!-- Activity Login, Register and Recover Password -->
+        <item name="alBackground">@color/bg3</item>
+        <item name="alLayoutRounded">@color/bg4</item>
+        <item name="alText">@color/txt2</item>
+        <item name="alText2">@color/txt2</item>
+        <item name="alText3">@color/txt2</item>
+        <item name="alButton">@color/btn2</item>
+
+        <!-- Activity Dashboard and Others -->
+        <item name="amBackground">@color/bg3</item>
+        <item name="amBackground2">@color/bg6</item>
+        <item name="amBackground3">@color/bg4</item>
+        <item name="amText">@color/txt2</item>
+        <item name="amText2">@color/txt3</item>
+        <item name="amText3">@color/txt2</item>
+
+    </style>
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/txt2</item>
+    </style>
+
+
+    <style name="TextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/txt2</item>
+    </style>
+    <style name="BottonNavigation">
+        <item name="background">@color/violet</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+    </style>
+</resources>
